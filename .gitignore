@@ -1,0 +1,23 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore logs
+logs
+*.log
+npm-debug.log*
+
+# Ignore OS files
+.DS_Store
+
+# Ignore build directories
+dist/
+build/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore environment-specific settings
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
